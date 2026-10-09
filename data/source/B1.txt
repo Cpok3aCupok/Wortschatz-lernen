@@ -1,0 +1,300 @@
+// Рівень B1. Формат — див. A0.txt
+
+# Суспільство
+die Gesellschaft | die Gesellschaften | суспільство; товариство
+die Politik | політика
+die Regierung | die Regierungen | уряд
+der Staat | die Staaten | держава
+die Wahl | die Wahlen | вибори; вибір
+die Demokratie | die Demokratien | демократія
+das Gesetz | die Gesetze | закон
+das Recht | die Rechte | право
+die Freiheit | die Freiheiten | свобода
+der Bürger | die Bürger | громадянин
+die Bevölkerung | die Bevölkerungen | населення
+die Meinung | die Meinungen | думка (погляд)
+die Diskussion | die Diskussionen | дискусія
+das Problem | die Probleme | проблема
+die Lösung | die Lösungen | рішення (проблеми)
+der Krieg | die Kriege | війна
+der Frieden | мир
+die Sicherheit | безпека
+die Gefahr | die Gefahren | небезпека
+die Hilfe | допомога
+die Unterstützung | підтримка
+der Flüchtling | die Flüchtlinge | біженець
+die Integration | інтеграція
+die Heimat | батьківщина
+die Religion | die Religionen | релігія
+die Tradition | die Traditionen | традиція
+die Gleichberechtigung | рівноправність
+die Armut | бідність
+der Reichtum | die Reichtümer | багатство
+arm | ärmer, am ärmsten | бідний
+reich | багатий
+wählen | wählt, wählte, hat gewählt | обирати; голосувати
+
+# Установи і документи
+die Behörde | die Behörden | державна установа
+das Amt | die Ämter | відомство, установа
+das Formular | die Formulare | бланк
+der Antrag | die Anträge | заява
+die Genehmigung | die Genehmigungen | дозвіл
+die Aufenthaltserlaubnis | die Aufenthaltserlaubnisse | дозвіл на проживання
+die Staatsangehörigkeit | die Staatsangehörigkeiten | громадянство
+die Unterschrift | die Unterschriften | підпис
+die Bescheinigung | die Bescheinigungen | довідка
+die Frist | die Fristen | строк
+die Gebühr | die Gebühren | збір, мито
+die Steuer | die Steuern | податок
+die Polizei | поліція
+das Gericht | die Gerichte | суд; страва
+der Anwalt | die Anwälte | адвокат
+die Strafe | die Strafen | покарання; штраф
+der Nachweis | die Nachweise | підтвердження, доказ
+beantragen | beantragt, beantragte, hat beantragt | подавати заяву
+verlängern | verlängert, verlängerte, hat verlängert | продовжувати (термін)
+
+# Освіта
+die Bildung | освіта
+die Universität | die Universitäten | університет
+das Studium | die Studien | навчання (у виші)
+das Fach | die Fächer | предмет (навчальний)
+die Vorlesung | die Vorlesungen | лекція
+das Seminar | die Seminare | семінар
+das Zeugnis | die Zeugnisse | атестат, табель; свідоцтво
+der Abschluss | die Abschlüsse | закінчення навчання; диплом
+das Wissen | знання
+die Kenntnis | die Kenntnisse | знання (мн. — навички)
+die Fähigkeit | die Fähigkeiten | здатність
+die Note | die Noten | оцінка
+die Weiterbildung | die Weiterbildungen | підвищення кваліфікації
+das Praktikum | die Praktika | практика, стажування
+die Forschung | die Forschungen | дослідження
+die Wissenschaft | die Wissenschaften | наука
+das Thema | die Themen | тема
+die Bibliothek | die Bibliotheken | бібліотека
+die Erklärung | die Erklärungen | пояснення
+das Beispiel | die Beispiele | приклад
+die Übung | die Übungen | вправа
+bestehen | besteht, bestand, hat bestanden | складати (іспит); існувати
+durchfallen | fällt durch, fiel durch, ist durchgefallen | провалити (іспит)
+sich konzentrieren | konzentriert sich, konzentrierte sich, hat sich konzentriert | зосереджуватися
+
+# Робота і гроші
+die Karriere | die Karrieren | кар'єра
+die Verantwortung | відповідальність
+die Leistung | die Leistungen | досягнення; продуктивність
+der Erfolg | die Erfolge | успіх
+die Konkurrenz | конкуренція
+das Unternehmen | die Unternehmen | підприємство
+die Abteilung | die Abteilungen | відділ
+der Mitarbeiter | die Mitarbeiter | співробітник
+die Mitarbeiterin | die Mitarbeiterinnen | співробітниця
+das Projekt | die Projekte | проєкт
+die Überstunde | die Überstunden | понаднормова година
+die Rente | die Renten | пенсія
+die Wirtschaft | економіка
+die Kosten | Pl. | витрати
+die Schulden | Pl. | борги
+die Überweisung | die Überweisungen | переказ (грошей)
+der Gewinn | die Gewinne | прибуток; виграш
+der Verlust | die Verluste | втрата, збиток
+die Bedingung | die Bedingungen | умова
+die Möglichkeit | die Möglichkeiten | можливість
+die Voraussetzung | die Voraussetzungen | передумова
+erfolgreich | успішний
+sparen | spart, sparte, hat gespart | заощаджувати
+ausgeben | gibt aus, gab aus, hat ausgegeben | витрачати
+leihen | leiht, lieh, hat geliehen | позичати
+überweisen | überweist, überwies, hat überwiesen | переказувати (гроші)
+verhandeln | verhandelt, verhandelte, hat verhandelt | вести переговори
+
+# Довкілля і наука
+das Klima | клімат
+der Klimawandel | зміна клімату
+die Energie | die Energien | енергія
+die Luft | повітря
+die Erde | Земля; земля, ґрунт
+die Welt | die Welten | світ
+die Pflanze | die Pflanzen | рослина
+die Verschmutzung | забруднення
+der Schutz | захист
+der Abfall | die Abfälle | відходи
+die Technik | die Techniken | техніка
+die Entwicklung | die Entwicklungen | розвиток
+die Erfindung | die Erfindungen | винахід
+die Zukunft | майбутнє
+die Vergangenheit | минуле
+die Gegenwart | теперішнє
+das Ergebnis | die Ergebnisse | результат
+die Ursache | die Ursachen | причина
+die Folge | die Folgen | наслідок
+die Wirkung | die Wirkungen | дія, вплив
+der Vorteil | die Vorteile | перевага
+der Nachteil | die Nachteile | недолік
+schützen | schützt, schützte, hat geschützt | захищати
+trennen | trennt, trennte, hat getrennt | розділяти; сортувати (сміття)
+recyceln | recycelt, recycelte, hat recycelt | переробляти (вторсировину)
+entwickeln | entwickelt, entwickelte, hat entwickelt | розробляти, розвивати
+
+# Стосунки і почуття
+die Beziehung | die Beziehungen | стосунки
+die Ehe | die Ehen | шлюб
+die Freundschaft | die Freundschaften | дружба
+der Streit | die Streite | сварка
+das Vertrauen | довіра
+der Respekt | повага
+die Eifersucht | ревнощі
+die Sorge | die Sorgen | турбота; хвилювання
+die Enttäuschung | die Enttäuschungen | розчарування
+die Geduld | терпіння
+die Stimmung | die Stimmungen | настрій, атмосфера
+die Laune | die Launen | настрій
+die Beschwerde | die Beschwerden | скарга
+eifersüchtig | ревнивий
+enttäuscht | розчарований
+einsam | самотній
+dankbar | вдячний
+geduldig | терплячий
+sich streiten | streitet sich, stritt sich, hat sich gestritten | сваритися
+sich verlieben | verliebt sich, verliebte sich, hat sich verliebt | закохуватися
+sich trennen | trennt sich, trennte sich, hat sich getrennt | розлучатися, розходитися
+vertrauen | vertraut, vertraute, hat vertraut | довіряти
+sich Sorgen machen | macht sich Sorgen, machte sich Sorgen, hat sich Sorgen gemacht | хвилюватися
+sich beschweren | beschwert sich, beschwerte sich, hat sich beschwert | скаржитися
+sich entschuldigen | entschuldigt sich, entschuldigte sich, hat sich entschuldigt | вибачатися
+verzeihen | verzeiht, verzieh, hat verziehen | прощати
+
+# Дієслова
+behaupten | behauptet, behauptete, hat behauptet | стверджувати
+beschreiben | beschreibt, beschrieb, hat beschrieben | описувати
+vergleichen | vergleicht, verglich, hat verglichen | порівнювати
+beweisen | beweist, bewies, hat bewiesen | доводити
+erreichen | erreicht, erreichte, hat erreicht | досягати
+erwarten | erwartet, erwartete, hat erwartet | очікувати
+erfahren | erfährt, erfuhr, hat erfahren | дізнаватися
+entstehen | entsteht, entstand, ist entstanden | виникати
+verursachen | verursacht, verursachte, hat verursacht | спричиняти
+vermeiden | vermeidet, vermied, hat vermieden | уникати
+verbessern | verbessert, verbesserte, hat verbessert | покращувати
+verbinden | verbindet, verband, hat verbunden | з'єднувати
+zunehmen | nimmt zu, nahm zu, hat zugenommen | збільшуватися; набирати вагу
+abnehmen | nimmt ab, nahm ab, hat abgenommen | зменшуватися; худнути
+teilnehmen | nimmt teil, nahm teil, hat teilgenommen | брати участь
+überzeugen | überzeugt, überzeugte, hat überzeugt | переконувати
+unterstützen | unterstützt, unterstützte, hat unterstützt | підтримувати
+sich kümmern | kümmert sich, kümmerte sich, hat sich gekümmert | піклуватися
+sich gewöhnen | gewöhnt sich, gewöhnte sich, hat sich gewöhnt | звикати
+sich verlassen | verlässt sich, verließ sich, hat sich verlassen | покладатися
+sich beschäftigen | beschäftigt sich, beschäftigte sich, hat sich beschäftigt | займатися (чимось)
+sich leisten | leistet sich, leistete sich, hat sich geleistet | дозволити собі (фінансово)
+sich lohnen | lohnt sich, lohnte sich, hat sich gelohnt | бути вартим, окупатися
+sich bedanken | bedankt sich, bedankte sich, hat sich bedankt | дякувати
+ablehnen | lehnt ab, lehnte ab, hat abgelehnt | відхиляти
+zustimmen | stimmt zu, stimmte zu, hat zugestimmt | погоджуватися
+widersprechen | widerspricht, widersprach, hat widersprochen | заперечувати, суперечити
+vorschlagen | schlägt vor, schlug vor, hat vorgeschlagen | пропонувати
+raten | rät, riet, hat geraten | радити; вгадувати
+zweifeln | zweifelt, zweifelte, hat gezweifelt | сумніватися
+bemerken | bemerkt, bemerkte, hat bemerkt | помічати
+sich merken | merkt sich, merkte sich, hat sich gemerkt | запам'ятовувати
+verschieben | verschiebt, verschob, hat verschoben | переносити (термін)
+absagen | sagt ab, sagte ab, hat abgesagt | скасовувати
+sich erholen | erholt sich, erholte sich, hat sich erholt | відпочивати, відновлюватися
+sich ernähren | ernährt sich, ernährte sich, hat sich ernährt | харчуватися
+erledigen | erledigt, erledigte, hat erledigt | виконувати, залагоджувати
+berücksichtigen | berücksichtigt, berücksichtigte, hat berücksichtigt | враховувати
+gelten | gilt, galt, hat gegolten | бути дійсним; вважатися
+enthalten | enthält, enthielt, hat enthalten | містити
+herstellen | stellt her, stellte her, hat hergestellt | виготовляти
+
+# Прикметники
+abhängig | залежний
+unabhängig | незалежний
+angenehm | приємний
+unangenehm | неприємний
+ausgezeichnet | відмінний
+aktuell | актуальний
+beliebt | популярний, улюблений
+berufstätig | працюючий
+deutlich | чіткий, ясний
+dringend | терміновий
+durchschnittlich | середній
+ehemalig | колишній
+erforderlich | необхідний
+gerecht | справедливий
+gewöhnlich | звичайний
+häufig | частий
+kompliziert | складний
+notwendig | необхідний
+offensichtlich | очевидний
+persönlich | особистий
+praktisch | практичний
+regelmäßig | регулярний
+selbstverständlich | само собою зрозумілий
+sinnvoll | доцільний
+spannend | захопливий
+umweltfreundlich | екологічний
+unterschiedlich | різний
+verantwortlich | відповідальний
+vorsichtig | обережний
+wahrscheinlich | ймовірно
+zuverlässig | надійний
+ständig | постійно
+
+# Сполучники і зв'язки
+jedoch | однак
+allerdings | щоправда, проте
+dagegen | натомість; проти цього
+sowohl ... als auch | як ... так і
+weder ... noch | ні ... ні
+entweder ... oder | або ... або
+je ... desto | чим ... тим
+falls | у разі якщо
+sobald | як тільки
+solange | поки
+seitdem | відтоді як
+statt | замість
+trotz | незважаючи на
+wegen | через (причина)
+innerhalb | протягом; всередині
+außerhalb | поза
+eigentlich | власне, взагалі-то
+übrigens | до речі
+inzwischen | тим часом; тепер
+bisher | досі
+damals | тоді (в минулому)
+zumindest | принаймні
+ungefähr | приблизно
+insgesamt | загалом
+tatsächlich | насправді
+daher | тому, звідси
+
+# Фрази: Думка і дискусія
+Meiner Meinung nach ist das richtig. | На мою думку, це правильно.
+Ich bin anderer Meinung. | Я іншої думки.
+Da hast du recht. | Тут ти маєш рацію.
+Das sehe ich anders. | Я бачу це інакше.
+Einerseits ja, andererseits nein. | З одного боку так, з іншого — ні.
+Es kommt darauf an. | Це залежить від обставин.
+Ich bin mir nicht sicher. | Я не впевнений.
+Was meinst du damit? | Що ти маєш на увазі?
+Könnten Sie das bitte wiederholen? | Чи не могли б Ви повторити?
+Das kann ich gut verstehen. | Я це добре розумію.
+Darüber muss ich nachdenken. | Мені треба над цим подумати.
+Ich schlage vor, dass wir morgen anfangen. | Я пропоную почати завтра.
+
+# Фрази: Робота і офіційне
+Ich interessiere mich für die Stelle. | Мене цікавить ця вакансія.
+Ich möchte einen Termin vereinbaren. | Я хотів би домовитися про зустріч.
+Leider muss ich den Termin absagen. | На жаль, мушу скасувати зустріч.
+Könnten Sie mir bitte Bescheid geben? | Чи не могли б Ви мені повідомити?
+Ich melde mich bei Ihnen. | Я з Вами зв'яжуся.
+Mit freundlichen Grüßen | З повагою (наприкінці листа)
+Sehr geehrte Damen und Herren | Шановні пані та панове
+Vielen Dank im Voraus. | Заздалегідь дякую.
+Welche Unterlagen brauche ich? | Які документи мені потрібні?
+Bis wann muss ich das abgeben? | До коли я маю це подати?
+Das ist nicht meine Schuld. | Це не моя провина.
+Ich hätte eine Frage. | У мене є питання.

@@ -1,0 +1,17 @@
+# Результати збірки (створюються автоматично)
+dist/
+ios/web/
+ios/build/
+ios/*.xcodeproj/
+Payload/
+*.ipa
+
+# Кеш та журнали скриптів
+tools/.cache/
+*.log
+
+# Локальні налаштування
+.claude/
+node_modules/
+.DS_Store
+Thumbs.db

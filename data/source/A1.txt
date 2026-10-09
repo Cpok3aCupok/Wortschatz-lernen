@@ -1,0 +1,518 @@
+// Рівень A1. Формат — див. A0.txt
+
+# Числа
+dreizehn | тринадцять
+vierzehn | чотирнадцять
+fünfzehn | п'ятнадцять
+sechzehn | шістнадцять
+siebzehn | сімнадцять
+achtzehn | вісімнадцять
+neunzehn | дев'ятнадцять
+einundzwanzig | двадцять один
+dreißig | тридцять
+vierzig | сорок
+fünfzig | п'ятдесят
+sechzig | шістдесят
+siebzig | сімдесят
+achtzig | вісімдесят
+neunzig | дев'яносто
+tausend | тисяча
+die Million | die Millionen | мільйон
+erste | перший
+zweite | другий
+dritte | третій
+die Hälfte | die Hälften | половина
+
+# Календар і час
+der Januar | січень
+der Februar | лютий
+der März | березень
+der April | квітень
+der Mai | травень
+der Juni | червень
+der Juli | липень
+der August | серпень
+der September | вересень
+der Oktober | жовтень
+der November | листопад
+der Dezember | грудень
+der Frühling | die Frühlinge | весна
+der Sommer | die Sommer | літо
+der Herbst | die Herbste | осінь
+der Winter | die Winter | зима
+der Monat | die Monate | місяць
+das Jahr | die Jahre | рік
+die Stunde | die Stunden | година
+die Minute | die Minuten | хвилина
+die Sekunde | die Sekunden | секунда
+das Wochenende | die Wochenenden | вихідні
+der Mittag | die Mittage | полудень
+der Vormittag | die Vormittage | перша половина дня
+der Nachmittag | die Nachmittage | друга половина дня
+das Datum | die Daten | дата
+der Geburtstag | die Geburtstage | день народження
+früh | рано
+spät | пізно
+bald | скоро
+immer | завжди
+oft | часто
+manchmal | іноді
+nie | ніколи
+schon | вже
+noch | ще
+dann | потім
+gleich | зараз, одразу; однаковий
+
+# Сім'я та люди
+der Großvater | die Großväter | дідусь
+die Großmutter | die Großmütter | бабуся
+der Opa | die Opas | дідусь (розм.)
+die Oma | die Omas | бабуся (розм.)
+der Onkel | die Onkel | дядько
+die Tante | die Tanten | тітка
+der Cousin | die Cousins | двоюрідний брат
+die Cousine | die Cousinen | двоюрідна сестра
+die Geschwister | Pl. | брати і сестри
+der Junge | die Jungen | хлопчик
+das Mädchen | die Mädchen | дівчинка
+die Leute | Pl. | люди
+der Mensch | die Menschen | людина
+der Herr | die Herren | пан; чоловік
+die Dame | die Damen | пані
+der Partner | die Partner | партнер
+die Partnerin | die Partnerinnen | партнерка
+der Nachbar | die Nachbarn | сусід
+die Nachbarin | die Nachbarinnen | сусідка
+der Gast | die Gäste | гість
+das Alter | вік
+jung | jünger, am jüngsten | молодий
+verheiratet | одружений
+ledig | неодружений
+geschieden | розлучений
+
+# Тіло і здоров'я
+der Körper | die Körper | тіло
+der Kopf | die Köpfe | голова
+das Auge | die Augen | око
+das Ohr | die Ohren | вухо
+die Nase | die Nasen | ніс
+der Mund | die Münder | рот
+der Zahn | die Zähne | зуб
+das Haar | die Haare | волосся
+die Hand | die Hände | рука (кисть)
+der Arm | die Arme | рука
+das Bein | die Beine | нога
+der Fuß | die Füße | стопа, нога
+der Bauch | die Bäuche | живіт
+der Rücken | die Rücken | спина
+der Arzt | die Ärzte | лікар
+die Ärztin | die Ärztinnen | лікарка
+die Apotheke | die Apotheken | аптека
+das Krankenhaus | die Krankenhäuser | лікарня
+der Schmerz | die Schmerzen | біль
+das Fieber | температура, жар
+die Tablette | die Tabletten | таблетка
+krank | хворий
+gesund | здоровий
+müde | втомлений
+wehtun | tut weh, tat weh, hat wehgetan | боліти
+
+# Одяг
+die Kleidung | одяг
+die Hose | die Hosen | штани
+das Hemd | die Hemden | сорочка
+das T-Shirt | die T-Shirts | футболка
+der Rock | die Röcke | спідниця
+das Kleid | die Kleider | сукня
+die Jacke | die Jacken | куртка
+der Mantel | die Mäntel | пальто
+der Pullover | die Pullover | светр
+der Schuh | die Schuhe | черевик; (мн.) взуття
+die Socke | die Socken | шкарпетка
+die Mütze | die Mützen | шапка
+die Tasche | die Taschen | сумка; кишеня
+die Brille | die Brillen | окуляри
+tragen | trägt, trug, hat getragen | носити; нести
+anziehen | zieht an, zog an, hat angezogen | одягати
+
+# Їжа і напої
+das Essen | die Essen | їжа
+das Frühstück | die Frühstücke | сніданок
+das Mittagessen | die Mittagessen | обід
+das Abendessen | die Abendessen | вечеря
+das Brötchen | die Brötchen | булочка
+die Butter | вершкове масло
+die Wurst | die Würste | ковбаса
+der Fisch | die Fische | риба
+das Hähnchen | die Hähnchen | курча; курятина
+der Reis | рис
+die Nudel | die Nudeln | макарони, локшина
+die Kartoffel | die Kartoffeln | картопля
+das Gemüse | овочі
+das Obst | фрукти
+die Banane | die Bananen | банан
+die Orange | die Orangen | апельсин
+die Tomate | die Tomaten | помідор
+der Salat | die Salate | салат
+die Suppe | die Suppen | суп
+der Kuchen | die Kuchen | пиріг, торт
+der Zucker | цукор
+das Salz | сіль
+der Wein | die Weine | вино
+die Flasche | die Flaschen | пляшка
+das Glas | die Gläser | склянка; скло
+die Tasse | die Tassen | чашка
+der Teller | die Teller | тарілка
+das Messer | die Messer | ніж
+die Gabel | die Gabeln | виделка
+der Löffel | die Löffel | ложка
+das Restaurant | die Restaurants | ресторан
+das Café | die Cafés | кав'ярня
+die Rechnung | die Rechnungen | рахунок
+der Hunger | голод
+der Durst | спрага
+lecker | смачний
+kochen | kocht, kochte, hat gekocht | готувати (їжу); варити
+schmecken | schmeckt, schmeckte, hat geschmeckt | смакувати
+bestellen | bestellt, bestellte, hat bestellt | замовляти
+bezahlen | bezahlt, bezahlte, hat bezahlt | платити
+
+# Покупки
+der Supermarkt | die Supermärkte | супермаркет
+das Geschäft | die Geschäfte | магазин; справа, бізнес
+der Markt | die Märkte | ринок
+das Geld | гроші
+der Euro | die Euro | євро
+der Cent | die Cent | цент
+der Preis | die Preise | ціна
+das Kilo | die Kilos | кілограм
+das Stück | die Stücke | штука; шматок
+die Kasse | die Kassen | каса
+das Angebot | die Angebote | пропозиція; акція
+die Größe | die Größen | розмір
+teuer | дорогий
+billig | дешевий
+offen | відчинений
+geschlossen | зачинений
+kosten | kostet, kostete, hat gekostet | коштувати
+verkaufen | verkauft, verkaufte, hat verkauft | продавати
+suchen | sucht, suchte, hat gesucht | шукати
+finden | findet, fand, hat gefunden | знаходити; вважати
+
+# Місто і транспорт
+die Straße | die Straßen | вулиця; дорога
+der Platz | die Plätze | площа; місце
+der Bahnhof | die Bahnhöfe | вокзал
+der Flughafen | die Flughäfen | аеропорт
+die Haltestelle | die Haltestellen | зупинка
+der Bus | die Busse | автобус
+die Bahn | die Bahnen | залізниця; поїзд
+der Zug | die Züge | поїзд
+die U-Bahn | die U-Bahnen | метро
+die S-Bahn | die S-Bahnen | міська електричка
+die Straßenbahn | die Straßenbahnen | трамвай
+das Taxi | die Taxis | таксі
+das Fahrrad | die Fahrräder | велосипед
+das Flugzeug | die Flugzeuge | літак
+die Fahrkarte | die Fahrkarten | квиток (на транспорт)
+das Ticket | die Tickets | квиток
+die Bank | die Banken | банк
+die Post | пошта
+das Hotel | die Hotels | готель
+das Kino | die Kinos | кінотеатр
+das Museum | die Museen | музей
+der Park | die Parks | парк
+die Kirche | die Kirchen | церква
+die Ampel | die Ampeln | світлофор
+das Gleis | die Gleise | колія, платформа
+die Adresse | die Adressen | адреса
+der Weg | die Wege | шлях, дорога
+die Ecke | die Ecken | кут, ріг
+links | ліворуч
+rechts | праворуч
+geradeaus | прямо
+weit | далеко; далекий
+nah | близько; близький
+abfahren | fährt ab, fuhr ab, ist abgefahren | відправлятися, від'їжджати
+ankommen | kommt an, kam an, ist angekommen | прибувати
+einsteigen | steigt ein, stieg ein, ist eingestiegen | сідати (в транспорт)
+aussteigen | steigt aus, stieg aus, ist ausgestiegen | виходити (з транспорту)
+umsteigen | steigt um, stieg um, ist umgestiegen | робити пересадку
+
+# Дім
+die Küche | die Küchen | кухня
+das Bad | die Bäder | ванна кімната
+das Schlafzimmer | die Schlafzimmer | спальня
+das Wohnzimmer | die Wohnzimmer | вітальня
+der Balkon | die Balkone | балкон
+das Fenster | die Fenster | вікно
+die Treppe | die Treppen | сходи
+der Schlüssel | die Schlüssel | ключ
+das Sofa | die Sofas | диван
+der Schrank | die Schränke | шафа
+die Lampe | die Lampen | лампа
+der Kühlschrank | die Kühlschränke | холодильник
+die Miete | die Mieten | орендна плата
+der Garten | die Gärten | сад
+die Etage | die Etagen | поверх
+der Boden | die Böden | підлога
+die Wand | die Wände | стіна
+mieten | mietet, mietete, hat gemietet | орендувати
+putzen | putzt, putzte, hat geputzt | прибирати, чистити
+aufräumen | räumt auf, räumte auf, hat aufgeräumt | наводити лад
+
+# Робота і навчання
+der Beruf | die Berufe | професія
+die Firma | die Firmen | фірма
+der Chef | die Chefs | керівник
+der Kollege | die Kollegen | колега
+die Kollegin | die Kolleginnen | колега (жін.)
+das Büro | die Büros | офіс
+der Computer | die Computer | комп'ютер
+die E-Mail | die E-Mails | електронний лист
+das Telefon | die Telefone | телефон
+der Termin | die Termine | призначена зустріч, прийом
+der Kurs | die Kurse | курс
+die Sprache | die Sprachen | мова
+das Wort | die Wörter | слово
+der Satz | die Sätze | речення
+die Frage | die Fragen | питання
+die Antwort | die Antworten | відповідь
+der Lehrer | die Lehrer | учитель
+die Lehrerin | die Lehrerinnen | учителька
+der Student | die Studenten | студент
+die Studentin | die Studentinnen | студентка
+der Schüler | die Schüler | учень
+die Prüfung | die Prüfungen | іспит
+die Hausaufgabe | die Hausaufgaben | домашнє завдання
+das Papier | die Papiere | папір
+der Kuli | die Kulis | ручка (кулькова)
+der Stift | die Stifte | олівець; ручка
+das Heft | die Hefte | зошит
+der Fehler | die Fehler | помилка
+richtig | правильний
+falsch | неправильний
+leicht | легкий
+schwer | важкий; складний
+fragen | fragt, fragte, hat gefragt | питати
+antworten | antwortet, antwortete, hat geantwortet | відповідати
+studieren | studiert, studierte, hat studiert | навчатися (в університеті)
+wiederholen | wiederholt, wiederholte, hat wiederholt | повторювати
+üben | übt, übte, hat geübt | вправлятися, тренуватися
+
+# Тварини
+das Tier | die Tiere | тварина
+der Hund | die Hunde | собака
+die Katze | die Katzen | кіт, кішка
+der Vogel | die Vögel | птах
+
+# Дозвілля
+das Hobby | die Hobbys | хобі
+die Musik | музика
+der Film | die Filme | фільм
+der Sport | спорт
+der Fußball | die Fußbälle | футбол; м'яч
+der Urlaub | die Urlaube | відпустка
+die Reise | die Reisen | подорож
+das Foto | die Fotos | фото
+das Spiel | die Spiele | гра
+die Party | die Partys | вечірка
+das Fest | die Feste | свято
+das Meer | die Meere | море
+der Strand | die Strände | пляж
+der Berg | die Berge | гора
+der See | die Seen | озеро
+die Zeitung | die Zeitungen | газета
+gern | охоче, із задоволенням
+schwimmen | schwimmt, schwamm, ist geschwommen | плавати
+tanzen | tanzt, tanzte, hat getanzt | танцювати
+singen | singt, sang, hat gesungen | співати
+laufen | läuft, lief, ist gelaufen | бігти; йти пішки
+reisen | reist, reiste, ist gereist | подорожувати
+besuchen | besucht, besuchte, hat besucht | відвідувати
+treffen | trifft, traf, hat getroffen | зустрічати
+fernsehen | sieht fern, sah fern, hat ferngesehen | дивитися телевізор
+
+# Погода
+das Wetter | погода
+die Sonne | die Sonnen | сонце
+der Regen | дощ
+der Schnee | сніг
+der Wind | die Winde | вітер
+die Wolke | die Wolken | хмара
+der Grad | die Grade | градус
+warm | wärmer, am wärmsten | теплий
+kalt | kälter, am kältesten | холодний
+heiß | гарячий; спекотний
+regnen | es regnet, regnete, hat geregnet | іти (про дощ)
+scheinen | scheint, schien, hat geschienen | світити; здаватися
+
+# Дієслова
+bleiben | bleibt, blieb, ist geblieben | залишатися
+stehen | steht, stand, hat gestanden | стояти
+sitzen | sitzt, saß, hat gesessen | сидіти
+liegen | liegt, lag, hat gelegen | лежати
+öffnen | öffnet, öffnete, hat geöffnet | відчиняти
+schließen | schließt, schloss, hat geschlossen | зачиняти
+beginnen | beginnt, begann, hat begonnen | починати(ся)
+helfen | hilft, half, hat geholfen | допомагати
+zeigen | zeigt, zeigte, hat gezeigt | показувати
+sagen | sagt, sagte, hat gesagt | казати
+erzählen | erzählt, erzählte, hat erzählt | розповідати
+denken | denkt, dachte, hat gedacht | думати
+glauben | glaubt, glaubte, hat geglaubt | вірити; вважати
+wissen | weiß, wusste, hat gewusst | знати (факт)
+kennen | kennt, kannte, hat gekannt | знати (бути знайомим)
+können | kann, konnte, hat gekonnt | могти, вміти
+müssen | muss, musste, hat gemusst | мусити
+wollen | will, wollte, hat gewollt | хотіти
+dürfen | darf, durfte, hat gedurft | мати дозвіл, могти
+sollen | soll, sollte, hat gesollt | бути повинним
+warten | wartet, wartete, hat gewartet | чекати
+bringen | bringt, brachte, hat gebracht | приносити
+holen | holt, holte, hat geholt | приносити, забирати
+lieben | liebt, liebte, hat geliebt | кохати, любити
+leben | lebt, lebte, hat gelebt | жити
+aufstehen | steht auf, stand auf, ist aufgestanden | вставати
+anrufen | ruft an, rief an, hat angerufen | телефонувати
+einkaufen | kauft ein, kaufte ein, hat eingekauft | робити покупки
+mitkommen | kommt mit, kam mit, ist mitgekommen | іти разом
+fliegen | fliegt, flog, ist geflogen | летіти, літати
+gehören | gehört, gehörte, hat gehört | належати
+werden | wird, wurde, ist geworden | ставати
+tun | tut, tat, hat getan | робити
+vergessen | vergisst, vergaß, hat vergessen | забувати
+danken | dankt, dankte, hat gedankt | дякувати
+waschen | wäscht, wusch, hat gewaschen | мити; прати
+duschen | duscht, duschte, hat geduscht | приймати душ
+frühstücken | frühstückt, frühstückte, hat gefrühstückt | снідати
+gefallen | gefällt, gefiel, hat gefallen | подобатися
+kennenlernen | lernt kennen, lernte kennen, hat kennengelernt | знайомитися
+buchstabieren | buchstabiert, buchstabierte, hat buchstabiert | вимовляти по літерах
+ausfüllen | füllt aus, füllte aus, hat ausgefüllt | заповнювати (бланк)
+unterschreiben | unterschreibt, unterschrieb, hat unterschrieben | підписувати
+
+# Прикметники
+schön | гарний
+hässlich | потворний
+lang | länger, am längsten | довгий
+kurz | kürzer, am kürzesten | короткий
+schnell | швидкий
+langsam | повільний
+wichtig | важливий
+interessant | цікавий
+langweilig | нудний
+einfach | простий
+frei | вільний
+voll | повний
+leer | порожній
+glücklich | щасливий
+traurig | сумний
+nett | милий, приємний
+freundlich | привітний
+ruhig | спокійний, тихий
+laut | гучний
+sauber | чистий
+schmutzig | брудний
+hoch | höher, am höchsten | високий
+dick | товстий
+dünn | тонкий; худий
+stark | stärker, am stärksten | сильний
+fertig | готовий (закінчений)
+bequem | зручний
+kaputt | зламаний
+toll | чудовий
+ganz | цілий; зовсім
+wenig | мало
+alle | всі
+jeder | кожен
+andere | інший
+zusammen | разом
+allein | сам, на самоті
+
+# Службові слова
+in | в, у
+auf | на
+unter | під
+über | над; про
+vor | перед; тому (назад)
+hinter | за (позаду)
+neben | поруч
+zwischen | між
+mit | з (кимось, чимось)
+ohne | без
+für | для
+von | від; з
+zu | до
+bei | біля; у (когось)
+nach | після; до (міста, країни)
+aus | з (зсередини; з країни)
+seit | з (якогось часу)
+bis | до (часу)
+um | о (годині); навколо
+gegen | проти; близько (про час)
+durch | через
+denn | бо
+wenn | якщо; коли
+dass | що (сполучник)
+nur | тільки
+etwas | щось; трохи
+nichts | нічого
+alles | все
+man | (неозначена особа: «кажуть», «можна»)
+kein | жоден, ніякий
+vielleicht | можливо
+natürlich | звісно
+wirklich | справді
+zurück | назад
+oben | вгорі
+unten | внизу
+draußen | надворі
+
+# Фрази: У кафе і магазині
+Ich hätte gern einen Kaffee. | Я хотів би каву.
+Was kostet das? | Скільки це коштує?
+Die Rechnung, bitte. | Рахунок, будь ласка.
+Kann ich mit Karte zahlen? | Можна заплатити карткою?
+Ich nehme das. | Я це візьму.
+Haben Sie Brot? | У вас є хліб?
+Das schmeckt sehr gut. | Це дуже смачно.
+Guten Appetit! | Смачного!
+Prost! | Будьмо!
+Ich möchte bestellen. | Я хотів би замовити.
+Noch etwas? | Ще щось?
+Das ist alles. | Це все.
+Gibt es hier WLAN? | Тут є Wi-Fi?
+
+# Фрази: У місті
+Wo ist der Bahnhof? | Де вокзал?
+Wie komme ich zum Bahnhof? | Як мені дістатися до вокзалу?
+Ist das weit? | Це далеко?
+Gehen Sie geradeaus. | Ідіть прямо.
+Biegen Sie links ab. | Поверніть ліворуч.
+Wann fährt der nächste Zug? | Коли відходить наступний поїзд?
+Eine Fahrkarte nach München, bitte. | Один квиток до Мюнхена, будь ласка.
+Wo ist die Toilette? | Де туалет?
+
+# Фрази: Про себе
+Wie spät ist es? | Котра година?
+Es ist drei Uhr. | Зараз третя година.
+Hast du heute Zeit? | У тебе сьогодні є час?
+Wann treffen wir uns? | Коли ми зустрінемося?
+Am Montag habe ich keine Zeit. | У понеділок у мене немає часу.
+Gute Idee! | Гарна ідея!
+Ich habe Hunger. | Я голодний.
+Ich habe Durst. | Я хочу пити.
+Ich bin müde. | Я втомився.
+Ich bin krank. | Я хворий.
+Mir ist kalt. | Мені холодно.
+Wie alt bist du? | Скільки тобі років?
+Ich bin dreißig Jahre alt. | Мені тридцять років.
+Was machst du beruflich? | Ким ти працюєш?
+Ich bin Lehrerin. | Я вчителька.
+Was ist dein Hobby? | Яке в тебе хобі?
+Ich lerne Deutsch. | Я вчу німецьку.
+Alles Gute zum Geburtstag! | З днем народження!
+Schönes Wochenende! | Гарних вихідних!
+Viel Glück! | Удачі!
+Gute Besserung! | Одужуйте!

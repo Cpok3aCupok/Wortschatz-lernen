@@ -1,0 +1,208 @@
+// Формат рядка:   німецькою | форми (множина / дієвідміна) | українською
+// або коротко:    німецькою | українською
+// "# Тема" починає нову тему, "# Фрази: Тема" — тему з фразами.
+// Необов'язкові поля в кінці рядка: | ipa:... | ex:приклад | exu:переклад прикладу
+// Транскрипція (IPA) та аудіо підтягуються з Вікісловника скриптом tools/enrich.mjs.
+
+# Займенники
+ich | я
+du | ти
+er | він
+sie | вона; вони
+es | воно
+wir | ми
+ihr | ви (до кількох людей)
+Sie | Ви (ввічливо)
+mein | мій
+dein | твій
+
+# Питальні слова
+wer | хто
+was | що
+wo | де
+woher | звідки
+wohin | куди
+wann | коли
+wie | як
+warum | чому
+wie viel | скільки
+welcher | який (з кількох)
+
+# Числа
+null | нуль
+eins | один
+zwei | два
+drei | три
+vier | чотири
+fünf | п'ять
+sechs | шість
+sieben | сім
+acht | вісім
+neun | дев'ять
+zehn | десять
+elf | одинадцять
+zwölf | дванадцять
+zwanzig | двадцять
+hundert | сто
+
+# Кольори
+rot | червоний
+blau | синій
+grün | зелений
+gelb | жовтий
+schwarz | чорний
+weiß | білий
+grau | сірий
+braun | коричневий
+
+# Сім'я та люди
+die Familie | die Familien | сім'я
+die Mutter | die Mütter | мати
+der Vater | die Väter | батько
+die Eltern | Pl. | батьки
+der Bruder | die Brüder | брат
+die Schwester | die Schwestern | сестра
+das Kind | die Kinder | дитина
+der Sohn | die Söhne | син
+die Tochter | die Töchter | донька
+der Mann | die Männer | чоловік
+die Frau | die Frauen | жінка; дружина
+der Freund | die Freunde | друг
+die Freundin | die Freundinnen | подруга
+der Name | die Namen | ім'я
+
+# Дні та час
+der Tag | die Tage | день
+die Woche | die Wochen | тиждень
+der Montag | die Montage | понеділок
+der Dienstag | die Dienstage | вівторок
+der Mittwoch | die Mittwoche | середа
+der Donnerstag | die Donnerstage | четвер
+der Freitag | die Freitage | п'ятниця
+der Samstag | die Samstage | субота
+der Sonntag | die Sonntage | неділя
+heute | сьогодні
+morgen | завтра
+gestern | вчора
+jetzt | зараз
+die Uhr | die Uhren | годинник; година (котра година)
+die Zeit | die Zeiten | час
+der Morgen | die Morgen | ранок
+der Abend | die Abende | вечір
+die Nacht | die Nächte | ніч
+
+# Базові дієслова
+sein | ist, war, ist gewesen | бути
+haben | hat, hatte, hat gehabt | мати
+heißen | heißt, hieß, hat geheißen | називатися (мене звати)
+kommen | kommt, kam, ist gekommen | приходити; бути родом
+wohnen | wohnt, wohnte, hat gewohnt | жити, мешкати
+sprechen | spricht, sprach, hat gesprochen | говорити, розмовляти
+lernen | lernt, lernte, hat gelernt | вчити, вчитися
+machen | macht, machte, hat gemacht | робити
+gehen | geht, ging, ist gegangen | йти
+essen | isst, aß, hat gegessen | їсти
+trinken | trinkt, trank, hat getrunken | пити
+schlafen | schläft, schlief, hat geschlafen | спати
+lesen | liest, las, hat gelesen | читати
+schreiben | schreibt, schrieb, hat geschrieben | писати
+hören | hört, hörte, hat gehört | слухати; чути
+sehen | sieht, sah, hat gesehen | бачити
+verstehen | versteht, verstand, hat verstanden | розуміти
+brauchen | braucht, brauchte, hat gebraucht | потребувати
+mögen | mag, mochte, hat gemocht | любити, подобатися
+möchten | ich möchte, du möchtest | хотіти б (ввічливо)
+kaufen | kauft, kaufte, hat gekauft | купувати
+arbeiten | arbeitet, arbeitete, hat gearbeitet | працювати
+spielen | spielt, spielte, hat gespielt | грати
+fahren | fährt, fuhr, ist gefahren | їхати
+geben | gibt, gab, hat gegeben | давати
+nehmen | nimmt, nahm, hat genommen | брати
+
+# Базові слова
+ja | так
+nein | ні
+nicht | не
+und | і, та
+oder | або
+aber | але
+gut | besser, am besten | добре; добрий
+schlecht | погано; поганий
+groß | größer, am größten | великий
+klein | kleiner, am kleinsten | маленький
+neu | новий
+alt | älter, am ältesten | старий
+hier | тут
+dort | там
+sehr | дуже
+viel | mehr, am meisten | багато
+auch | теж, також
+bitte | будь ласка
+danke | дякую
+
+# Їжа і напої
+das Wasser | вода
+das Brot | die Brote | хліб
+der Kaffee | die Kaffees | кава
+der Tee | die Tees | чай
+die Milch | молоко
+der Apfel | die Äpfel | яблуко
+das Ei | die Eier | яйце
+der Käse | сир
+das Fleisch | м'ясо
+das Bier | die Biere | пиво
+der Saft | die Säfte | сік
+
+# Дім і речі
+das Haus | die Häuser | будинок
+die Wohnung | die Wohnungen | квартира
+das Zimmer | die Zimmer | кімната
+die Tür | die Türen | двері
+der Tisch | die Tische | стіл
+der Stuhl | die Stühle | стілець
+das Bett | die Betten | ліжко
+das Buch | die Bücher | книга
+das Handy | die Handys | мобільний телефон
+das Auto | die Autos | автомобіль
+die Stadt | die Städte | місто
+das Land | die Länder | країна; село (сільська місцевість)
+die Schule | die Schulen | школа
+die Arbeit | die Arbeiten | робота
+
+# Фрази: Привітання
+Hallo! | Привіт!
+Guten Morgen! | Доброго ранку!
+Guten Tag! | Добрий день!
+Guten Abend! | Добрий вечір!
+Gute Nacht! | На добраніч!
+Tschüss! | Бувай!
+Auf Wiedersehen! | До побачення!
+Bis morgen! | До завтра!
+Bis bald! | До скорого!
+Wie geht's? | Як справи?
+Wie geht es Ihnen? | Як у Вас справи?
+Mir geht es gut, danke. | У мене все добре, дякую.
+Und dir? | А в тебе?
+Danke schön! | Щиро дякую!
+Bitte schön! | Будь ласка! (у відповідь на подяку)
+Entschuldigung! | Перепрошую! / Вибачте!
+Kein Problem. | Без проблем.
+
+# Фрази: Знайомство
+Wie heißt du? | Як тебе звати?
+Ich heiße Anna. | Мене звати Анна.
+Wie ist Ihr Name? | Як Ваше ім'я?
+Woher kommst du? | Звідки ти?
+Ich komme aus der Ukraine. | Я з України.
+Wo wohnst du? | Де ти живеш?
+Ich wohne in Berlin. | Я живу в Берліні.
+Freut mich! | Приємно познайомитися!
+Ich spreche ein bisschen Deutsch. | Я трохи розмовляю німецькою.
+Ich verstehe das nicht. | Я цього не розумію.
+Sprechen Sie Englisch? | Ви розмовляєте англійською?
+Noch einmal, bitte. | Ще раз, будь ласка.
+Langsamer, bitte. | Повільніше, будь ласка.
+Was bedeutet das? | Що це означає?
+Wie sagt man das auf Deutsch? | Як це сказати німецькою?
+Ja, gern. | Так, із задоволенням.
+Nein, danke. | Ні, дякую.

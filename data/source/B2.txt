@@ -1,0 +1,122 @@
+// Рівень B2. Формат — див. A0.txt
+
+# Абстрактні поняття
+die Auswirkung | die Auswirkungen | вплив, наслідок
+die Herausforderung | die Herausforderungen | виклик
+die Maßnahme | die Maßnahmen | захід (дія)
+der Zusammenhang | die Zusammenhänge | зв'язок, контекст
+die Absicht | die Absichten | намір
+die Annahme | die Annahmen | припущення; прийняття
+der Ansatz | die Ansätze | підхід
+die Auffassung | die Auffassungen | погляд, точка зору
+die Bedeutung | die Bedeutungen | значення
+der Einfluss | die Einflüsse | вплив
+die Einstellung | die Einstellungen | ставлення; налаштування
+die Entscheidung | die Entscheidungen | рішення
+die Erkenntnis | die Erkenntnisse | пізнання, висновок
+die Grundlage | die Grundlagen | основа
+der Umstand | die Umstände | обставина
+der Unterschied | die Unterschiede | різниця
+die Vorstellung | die Vorstellungen | уявлення; вистава
+der Vorwurf | die Vorwürfe | докір, звинувачення
+der Widerspruch | die Widersprüche | суперечність; заперечення
+der Zweck | die Zwecke | мета, призначення
+die Nachhaltigkeit | сталий розвиток, екологічність
+das Vorurteil | die Vorurteile | упередження
+die Bereitschaft | готовність
+die Rücksicht | зважання на інших, тактовність
+das Bewusstsein | свідомість
+die Wahrnehmung | die Wahrnehmungen | сприйняття
+die Beobachtung | die Beobachtungen | спостереження
+die Behauptung | die Behauptungen | твердження
+die Untersuchung | die Untersuchungen | дослідження; обстеження
+die Umfrage | die Umfragen | опитування
+die Statistik | die Statistiken | статистика
+der Anteil | die Anteile | частка
+der Durchschnitt | die Durchschnitte | середнє значення
+die Mehrheit | die Mehrheiten | більшість
+die Minderheit | die Minderheiten | меншість
+der Rückgang | die Rückgänge | спад, зниження
+der Anstieg | die Anstiege | зростання
+die Krise | die Krisen | криза
+der Wohlstand | добробут
+die Globalisierung | глобалізація
+die Digitalisierung | цифровізація
+die künstliche Intelligenz | штучний інтелект
+der Datenschutz | захист даних
+
+# Дієслова
+beeinflussen | beeinflusst, beeinflusste, hat beeinflusst | впливати
+beitragen | trägt bei, trug bei, hat beigetragen | робити внесок
+sich auseinandersetzen | setzt sich auseinander, setzte sich auseinander, hat sich auseinandergesetzt | детально розбиратися (з чимось)
+bewältigen | bewältigt, bewältigte, hat bewältigt | долати, справлятися
+darstellen | stellt dar, stellte dar, hat dargestellt | зображати, представляти
+ermöglichen | ermöglicht, ermöglichte, hat ermöglicht | уможливлювати
+fördern | fördert, förderte, hat gefördert | сприяти, підтримувати
+gewährleisten | gewährleistet, gewährleistete, hat gewährleistet | гарантувати, забезпечувати
+hervorheben | hebt hervor, hob hervor, hat hervorgehoben | підкреслювати
+nachweisen | weist nach, wies nach, hat nachgewiesen | доводити, підтверджувати
+umsetzen | setzt um, setzte um, hat umgesetzt | втілювати, реалізовувати
+unterscheiden | unterscheidet, unterschied, hat unterschieden | розрізняти
+verdeutlichen | verdeutlicht, verdeutlichte, hat verdeutlicht | роз'яснювати
+verzichten | verzichtet, verzichtete, hat verzichtet | відмовлятися (від чогось)
+voraussetzen | setzt voraus, setzte voraus, hat vorausgesetzt | передбачати (як умову)
+zurückführen | führt zurück, führte zurück, hat zurückgeführt | пояснювати (причиною), зводити до
+sich herausstellen | stellt sich heraus, stellte sich heraus, hat sich herausgestellt | виявлятися
+sich befassen | befasst sich, befasste sich, hat sich befasst | займатися, розглядати
+sich durchsetzen | setzt sich durch, setzte sich durch, hat sich durchgesetzt | домагатися свого, утверджуватися
+betonen | betont, betonte, hat betont | наголошувати
+einschätzen | schätzt ein, schätzte ein, hat eingeschätzt | оцінювати
+erfordern | erfordert, erforderte, hat erfordert | вимагати, потребувати
+verringern | verringert, verringerte, hat verringert | зменшувати
+steigern | steigert, steigerte, hat gesteigert | підвищувати
+nachgeben | gibt nach, gab nach, hat nachgegeben | поступатися
+zögern | zögert, zögerte, hat gezögert | вагатися
+
+# Прикметники і зв'язки
+angemessen | належний, відповідний
+anspruchsvoll | вимогливий, складний
+ausführlich | детальний
+bedeutend | значний, вагомий
+begrenzt | обмежений
+beträchtlich | значний
+eindeutig | однозначний
+entscheidend | вирішальний
+erheblich | значний, суттєвий
+fragwürdig | сумнівний
+gegenseitig | взаємний
+grundsätzlich | принциповий; в принципі
+nachhaltig | сталий, екологічно відповідальний
+umstritten | спірний
+vergleichbar | порівнянний
+vielfältig | різноманітний
+vorübergehend | тимчасовий
+wesentlich | суттєвий
+widersprüchlich | суперечливий
+zahlreich | численний
+zunehmend | дедалі більше; зростаючий
+zwangsläufig | неминуче
+ausschließlich | виключно
+weitgehend | значною мірою
+hingegen | натомість
+demnach | отже, згідно з цим
+infolgedessen | внаслідок цього
+sowie | а також
+angesichts | з огляду на
+hinsichtlich | щодо
+bezüglich | стосовно
+aufgrund | на підставі, через
+
+# Фрази: Аргументація
+Das lässt sich nicht leugnen. | Цього не можна заперечити.
+Im Großen und Ganzen | Загалом і в цілому
+Unter diesen Umständen | За цих обставин
+Das hängt davon ab. | Це від того залежить.
+Ich gehe davon aus, dass es klappt. | Я виходжу з того, що все вийде.
+Das kommt nicht in Frage. | Про це не може бути й мови.
+Auf jeden Fall | У будь-якому разі
+Auf keinen Fall | У жодному разі
+Zusammenfassend lässt sich sagen, dass beide Seiten recht haben. | Підсумовуючи, можна сказати, що обидві сторони мають рацію.
+Das ist nicht von der Hand zu weisen. | Це не можна просто відкинути.
+Es ist höchste Zeit. | Давно пора.
+Ich bin ganz Ihrer Meinung. | Я цілком поділяю Вашу думку.

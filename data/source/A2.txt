@@ -1,0 +1,353 @@
+// Рівень A2. Формат — див. A0.txt
+
+# Природа і тварини
+das Pferd | die Pferde | кінь
+die Kuh | die Kühe | корова
+das Schwein | die Schweine | свиня
+die Maus | die Mäuse | миша
+der Baum | die Bäume | дерево
+die Blume | die Blumen | квітка
+der Wald | die Wälder | ліс
+der Fluss | die Flüsse | річка
+das Feld | die Felder | поле
+der Himmel | die Himmel | небо
+der Stern | die Sterne | зірка
+der Mond | die Monde | місяць (на небі)
+die Natur | природа
+die Umwelt | довкілля
+die Insel | die Inseln | острів
+das Gras | die Gräser | трава
+
+# Здоров'я
+die Krankheit | die Krankheiten | хвороба
+die Erkältung | die Erkältungen | застуда
+der Husten | кашель
+der Schnupfen | нежить
+die Grippe | die Grippen | грип
+die Versicherung | die Versicherungen | страхування
+die Krankenkasse | die Krankenkassen | лікарняна каса
+das Rezept | die Rezepte | рецепт
+das Medikament | die Medikamente | ліки
+die Praxis | die Praxen | лікарський кабінет, практика
+der Patient | die Patienten | пацієнт
+der Unfall | die Unfälle | нещасний випадок, аварія
+der Notfall | die Notfälle | надзвичайна ситуація
+der Zahnarzt | die Zahnärzte | стоматолог
+das Herz | die Herzen | серце
+der Hals | die Hälse | горло; шия
+der Magen | die Mägen | шлунок
+der Finger | die Finger | палець
+das Gesicht | die Gesichter | обличчя
+verletzt | поранений, травмований
+sich fühlen | fühlt sich, fühlte sich, hat sich gefühlt | почуватися
+untersuchen | untersucht, untersuchte, hat untersucht | обстежувати
+
+# Робота
+die Stelle | die Stellen | посада, місце
+der Job | die Jobs | робота (підробіток)
+die Bewerbung | die Bewerbungen | заява (на роботу)
+der Lebenslauf | die Lebensläufe | резюме
+das Gehalt | die Gehälter | зарплата (оклад)
+der Lohn | die Löhne | заробітна плата
+der Arbeitgeber | die Arbeitgeber | роботодавець
+der Arbeitnehmer | die Arbeitnehmer | працівник
+die Ausbildung | die Ausbildungen | професійне навчання
+die Erfahrung | die Erfahrungen | досвід
+die Besprechung | die Besprechungen | нарада
+die Pause | die Pausen | перерва
+der Feierabend | die Feierabende | кінець робочого дня
+der Kunde | die Kunden | клієнт
+die Kundin | die Kundinnen | клієнтка
+der Vertrag | die Verträge | договір
+die Aufgabe | die Aufgaben | завдання
+das Ziel | die Ziele | мета
+der Drucker | die Drucker | принтер
+arbeitslos | безробітний
+selbstständig | самостійний; самозайнятий
+sich bewerben | bewirbt sich, bewarb sich, hat sich beworben | подавати заявку (на роботу)
+verdienen | verdient, verdiente, hat verdient | заробляти
+kündigen | kündigt, kündigte, hat gekündigt | звільнятися; розривати договір
+
+# Подорожі
+der Pass | die Pässe | паспорт
+der Ausweis | die Ausweise | посвідчення особи
+der Koffer | die Koffer | валіза
+das Gepäck | багаж
+die Grenze | die Grenzen | кордон
+das Ausland | закордон
+die Unterkunft | die Unterkünfte | житло (на час подорожі)
+die Abfahrt | die Abfahrten | відправлення
+die Ankunft | die Ankünfte | прибуття
+die Verspätung | die Verspätungen | запізнення
+die Richtung | die Richtungen | напрямок
+die Karte | die Karten | карта; квиток; листівка
+der Stadtplan | die Stadtpläne | план міста
+die Sehenswürdigkeit | die Sehenswürdigkeiten | визначна пам'ятка
+der Tourist | die Touristen | турист
+das Zelt | die Zelte | намет
+der Rucksack | die Rucksäcke | рюкзак
+die Autobahn | die Autobahnen | автобан, швидкісна траса
+reservieren | reserviert, reservierte, hat reserviert | бронювати
+packen | packt, packte, hat gepackt | пакувати
+landen | landet, landete, ist gelandet | приземлятися
+verpassen | verpasst, verpasste, hat verpasst | пропустити (поїзд тощо)
+tanken | tankt, tankte, hat getankt | заправляти (авто)
+parken | parkt, parkte, hat geparkt | паркувати
+
+# Житло і побут
+der Vermieter | die Vermieter | орендодавець
+der Mieter | die Mieter | орендар
+die Nebenkosten | Pl. | комунальні платежі
+der Umzug | die Umzüge | переїзд
+die Heizung | die Heizungen | опалення
+der Strom | електрика; течія
+der Müll | сміття
+die Möbel | Pl. | меблі
+der Teppich | die Teppiche | килим
+das Regal | die Regale | полиця, стелаж
+der Spiegel | die Spiegel | дзеркало
+die Waschmaschine | die Waschmaschinen | пральна машина
+der Herd | die Herde | плита
+der Aufzug | die Aufzüge | ліфт
+der Keller | die Keller | підвал
+das Dach | die Dächer | дах
+umziehen | zieht um, zog um, ist umgezogen | переїжджати
+legen | legt, legte, hat gelegt | класти
+stellen | stellt, stellte, hat gestellt | ставити
+hängen | hängt, hing, hat gehangen | висіти; вішати
+reparieren | repariert, reparierte, hat repariert | ремонтувати
+funktionieren | funktioniert, funktionierte, hat funktioniert | працювати (про техніку)
+einschalten | schaltet ein, schaltete ein, hat eingeschaltet | вмикати
+ausschalten | schaltet aus, schaltete aus, hat ausgeschaltet | вимикати
+
+# Покупки і сервіс
+das Kaufhaus | die Kaufhäuser | універмаг
+die Bäckerei | die Bäckereien | пекарня
+die Metzgerei | die Metzgereien | м'ясна крамниця
+die Packung | die Packungen | упаковка
+die Dose | die Dosen | бляшанка, банка
+die Quittung | die Quittungen | квитанція, чек
+die Kreditkarte | die Kreditkarten | кредитна картка
+das Konto | die Konten | банківський рахунок
+das Portemonnaie | die Portemonnaies | гаманець
+der Automat | die Automaten | автомат
+die Öffnungszeiten | Pl. | години роботи
+die Lieferung | die Lieferungen | доставка
+bar | готівкою
+günstig | вигідний, недорогий
+umtauschen | tauscht um, tauschte um, hat umgetauscht | обмінювати (товар)
+anprobieren | probiert an, probierte an, hat anprobiert | приміряти
+liefern | liefert, lieferte, hat geliefert | доставляти
+
+# Почуття і характер
+das Gefühl | die Gefühle | почуття
+die Angst | die Ängste | страх
+die Freude | die Freuden | радість
+die Liebe | кохання, любов
+der Spaß | die Späße | задоволення, веселощі
+die Lust | бажання, охота
+die Überraschung | die Überraschungen | сюрприз; здивування
+sauer | сердитий; кислий
+nervös | нервовий
+zufrieden | задоволений
+ehrlich | чесний
+lustig | веселий, кумедний
+ernst | серйозний
+höflich | ввічливий
+fleißig | старанний
+faul | лінивий
+neugierig | допитливий
+stolz | гордий
+überrascht | здивований
+froh | радий
+böse | злий
+sich freuen | freut sich, freute sich, hat sich gefreut | радіти
+sich ärgern | ärgert sich, ärgerte sich, hat sich geärgert | сердитися
+lachen | lacht, lachte, hat gelacht | сміятися
+weinen | weint, weinte, hat geweint | плакати
+hoffen | hofft, hoffte, hat gehofft | сподіватися
+lächeln | lächelt, lächelte, hat gelächelt | усміхатися
+träumen | träumt, träumte, hat geträumt | мріяти; бачити сни
+vermissen | vermisst, vermisste, hat vermisst | сумувати (за кимось)
+
+# Медіа і техніка
+das Internet | інтернет
+die Nachricht | die Nachrichten | повідомлення; (мн.) новини
+das Programm | die Programme | програма
+die Sendung | die Sendungen | передача
+der Fernseher | die Fernseher | телевізор
+das Radio | die Radios | радіо
+die Zeitschrift | die Zeitschriften | журнал
+das Passwort | die Passwörter | пароль
+die Seite | die Seiten | сторінка; сторона
+der Bildschirm | die Bildschirme | екран
+die Taste | die Tasten | клавіша, кнопка
+der Brief | die Briefe | лист
+die Postkarte | die Postkarten | листівка
+das Paket | die Pakete | посилка
+die Briefmarke | die Briefmarken | поштова марка
+der Absender | die Absender | відправник
+das Gerät | die Geräte | прилад, пристрій
+die App | die Apps | застосунок
+herunterladen | lädt herunter, lud herunter, hat heruntergeladen | завантажувати
+schicken | schickt, schickte, hat geschickt | надсилати
+drucken | druckt, druckte, hat gedruckt | друкувати
+speichern | speichert, speicherte, hat gespeichert | зберігати
+löschen | löscht, löschte, hat gelöscht | видаляти
+
+# Свята і події
+Weihnachten | Різдво
+Ostern | Великдень
+Silvester | новорічна ніч (31 грудня)
+das Geschenk | die Geschenke | подарунок
+die Hochzeit | die Hochzeiten | весілля
+die Einladung | die Einladungen | запрошення
+der Feiertag | die Feiertage | святковий день
+die Feier | die Feiern | святкування
+das Konzert | die Konzerte | концерт
+das Theater | die Theater | театр
+die Ausstellung | die Ausstellungen | виставка
+die Veranstaltung | die Veranstaltungen | захід, подія
+die Kultur | die Kulturen | культура
+einladen | lädt ein, lud ein, hat eingeladen | запрошувати
+feiern | feiert, feierte, hat gefeiert | святкувати
+gratulieren | gratuliert, gratulierte, hat gratuliert | вітати (зі святом)
+schenken | schenkt, schenkte, hat geschenkt | дарувати
+heiraten | heiratet, heiratete, hat geheiratet | одружуватися
+
+# Дієслова
+versuchen | versucht, versuchte, hat versucht | намагатися; куштувати
+erklären | erklärt, erklärte, hat erklärt | пояснювати
+benutzen | benutzt, benutzte, hat benutzt | використовувати
+bekommen | bekommt, bekam, hat bekommen | отримувати
+verlieren | verliert, verlor, hat verloren | губити; програвати
+gewinnen | gewinnt, gewann, hat gewonnen | вигравати
+vorbereiten | bereitet vor, bereitete vor, hat vorbereitet | готувати, підготувати
+entscheiden | entscheidet, entschied, hat entschieden | вирішувати
+sich erinnern | erinnert sich, erinnerte sich, hat sich erinnert | пам'ятати, згадувати
+sich vorstellen | stellt sich vor, stellte sich vor, hat sich vorgestellt | представлятися; уявляти
+sich interessieren | interessiert sich, interessierte sich, hat sich interessiert | цікавитися
+passieren | passiert, passierte, ist passiert | траплятися
+ändern | ändert, änderte, hat geändert | змінювати
+wechseln | wechselt, wechselte, hat gewechselt | міняти
+mitnehmen | nimmt mit, nahm mit, hat mitgenommen | брати з собою
+abholen | holt ab, holte ab, hat abgeholt | забирати (когось, щось)
+aufhören | hört auf, hörte auf, hat aufgehört | припиняти
+anfangen | fängt an, fing an, hat angefangen | починати
+ausgehen | geht aus, ging aus, ist ausgegangen | виходити (розважитися)
+aufmachen | macht auf, machte auf, hat aufgemacht | відчиняти
+zumachen | macht zu, machte zu, hat zugemacht | зачиняти
+erlauben | erlaubt, erlaubte, hat erlaubt | дозволяти
+verbieten | verbietet, verbot, hat verboten | забороняти
+diskutieren | diskutiert, diskutierte, hat diskutiert | обговорювати
+empfehlen | empfiehlt, empfahl, hat empfohlen | рекомендувати
+schneiden | schneidet, schnitt, hat geschnitten | різати
+fallen | fällt, fiel, ist gefallen | падати
+springen | springt, sprang, ist gesprungen | стрибати
+wandern | wandert, wanderte, ist gewandert | ходити в похід
+sammeln | sammelt, sammelte, hat gesammelt | збирати
+sterben | stirbt, starb, ist gestorben | помирати
+rauchen | raucht, rauchte, hat geraucht | курити
+ziehen | zieht, zog, hat gezogen | тягнути
+drücken | drückt, drückte, hat gedrückt | натискати; тиснути
+besichtigen | besichtigt, besichtigte, hat besichtigt | оглядати (пам'ятки)
+sich beeilen | beeilt sich, beeilte sich, hat sich beeilt | поспішати
+sich setzen | setzt sich, setzte sich, hat sich gesetzt | сідати
+sich anmelden | meldet sich an, meldete sich an, hat sich angemeldet | реєструватися, записуватися
+
+# Прикметники і прислівники
+bekannt | відомий
+berühmt | знаменитий
+fremd | чужий, незнайомий
+gefährlich | небезпечний
+sicher | безпечний; впевнений
+ähnlich | схожий
+verschieden | різний
+möglich | можливий
+unmöglich | неможливий
+pünktlich | пунктуальний; вчасно
+eilig | терміновий
+wahr | правдивий
+privat | приватний
+öffentlich | публічний, громадський
+modern | сучасний
+international | міжнародний
+kostenlos | безкоштовний
+scharf | гострий
+süß | солодкий
+salzig | солоний
+bitter | гіркий
+frisch | свіжий
+hell | світлий
+dunkel | темний
+nass | мокрий
+trocken | сухий
+eng | вузький, тісний
+breit | широкий
+tief | глибокий
+schwach | слабкий
+satt | ситий
+sogar | навіть
+fast | майже
+genug | досить
+ziemlich | доволі
+besonders | особливо
+zuerst | спочатку
+danach | після цього
+später | пізніше
+endlich | нарешті
+plötzlich | раптово
+meistens | здебільшого
+selten | рідко
+wieder | знову
+sofort | негайно
+außerdem | крім того
+trotzdem | попри це
+deshalb | тому
+also | отже
+weil | тому що
+obwohl | хоча
+ob | чи
+als | коли (в минулому); ніж
+bevor | перед тим як
+nachdem | після того як
+während | під час; тоді як
+damit | щоб
+sondern | а (навпаки)
+
+# Фрази: Побут і сервіс
+Können Sie mir helfen? | Ви можете мені допомогти?
+Ich hätte gern einen Termin. | Я хотів би записатися на прийом.
+Ich habe Kopfschmerzen. | У мене болить голова.
+Was fehlt Ihnen? | Що Вас турбує? (у лікаря)
+Ich fühle mich nicht wohl. | Я погано почуваюся.
+Die Heizung funktioniert nicht. | Опалення не працює.
+Kann ich das umtauschen? | Можна це обміняти?
+Haben Sie das in einer anderen Größe? | У вас є це іншого розміру?
+Ich suche eine Wohnung. | Я шукаю квартиру.
+Wie hoch ist die Miete? | Яка орендна плата?
+Ich möchte ein Konto eröffnen. | Я хочу відкрити рахунок.
+Der Zug hat Verspätung. | Поїзд запізнюється.
+Ich habe meinen Pass verloren. | Я загубив паспорт.
+Was empfehlen Sie? | Що Ви порадите?
+Ist hier noch frei? | Тут вільно?
+Ich bin gleich wieder da. | Я зараз повернуся.
+
+# Фрази: Спілкування
+Was hast du am Wochenende gemacht? | Що ти робив на вихідних?
+Ich war im Kino. | Я був у кіно.
+Das ist mir egal. | Мені все одно.
+Ich bin einverstanden. | Я згоден.
+Das stimmt. | Це правда.
+Das stimmt nicht. | Це неправда.
+Keine Ahnung. | Гадки не маю.
+Ich freue mich darauf. | Я цього з нетерпінням чекаю.
+Viel Spaß! | Гарно повеселитися!
+Herzlichen Glückwunsch! | Щиро вітаю!
+Mach's gut! | Бувай! Щасти!
+Lass uns ins Kino gehen. | Ходімо в кіно.
+Hast du Lust mitzukommen? | Хочеш піти з нами?
+Es tut mir leid. | Мені шкода. / Вибач.
+Das macht nichts. | Нічого страшного.
+Ich habe keine Zeit. | У мене немає часу.
+Wie war dein Tag? | Як пройшов твій день?
