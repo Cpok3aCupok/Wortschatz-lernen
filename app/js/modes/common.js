@@ -32,13 +32,16 @@ export function pos(e) {
 
 export function pickOptions(e, list, field, n = 4) {
   const p = pos(e);
-  const key = x => String(x[field]).trim().toLowerCase();
+  const norm = s => String(s).trim().toLowerCase();
+  const key = x => norm(x[field]);
+  // Синонім (machen / tun — обидва «робити») не можна давати як «неправильний» варіант.
+  const promptField = field === 'de' ? 'ua' : 'de';
   const used = new Set([key(e)]);
   const res = [e];
   const tryAdd = src => {
     for (const c of shuffle(src)) {
       if (res.length >= n) return;
-      if (c.id === e.id || used.has(key(c))) continue;
+      if (c.id === e.id || used.has(key(c)) || norm(c[promptField]) === norm(e[promptField])) continue;
       used.add(key(c));
       res.push(c);
     }
@@ -81,7 +84,7 @@ export function summary(root, { title, stats = [], missed = [], buttons = [] }) 
     stats.length ? h('div', { class: 'stats-row' }, stats.map(([v, l]) => h('div', null, h('b', null, v), h('span', null, l)))) : null,
     missed.length ? [h('div', { class: 'group-h' }, 'Варто повторити'), h('div', { class: 'wlist' }, missed.map(e => wordRow(e, () => audio.play(e))))] : null,
     h('div', { class: 'btn-col' }, btns.map(([label, fn, cls]) => h('button', { class: 'btn block ' + (cls || ''), type: 'button', onclick: fn }, label)))));
-  window.scrollTo(0, 0);
+  document.getElementById('view').scrollTop = 0;
 }
 
 const topicTag = e => e.t ? h('div', { class: 'topic' }, e.t) : null;
@@ -150,6 +153,13 @@ export function mcQuestion(root, e, kind, list, ctx, done) {
   }
 }
 
+// Інше слово словника з тим самим перекладом, яке збігається з відповіддю.
+function synonymOf(answer, e) {
+  const ua = e.ua.trim().toLowerCase();
+  return allEntries().find(x => x.id !== e.id && x.ua.trim().toLowerCase() === ua
+    && check(answer, x, { requireArticle: false }).result === 'ok') || null;
+}
+
 // Питання з введенням німецькою (переклад або диктант).
 export function typeQuestion(root, e, ctx, done, { requireArticle = settings.requireArticle, listen = false } = {}) {
   let state = 'ask', hints = 0, verdict = false, finished = false;
@@ -202,13 +212,20 @@ export function typeQuestion(root, e, ctx, done, { requireArticle = settings.req
     hints++;
     input.focus();
   }
+  function shake() {
+    input.classList.remove('bad'); void input.offsetWidth; input.classList.add('bad');
+    ctx.later(() => input.classList.remove('bad'), 500);
+    input.focus();
+  }
   function submit() {
     if (state !== 'ask') return;
     const r = check(input.value, e, { requireArticle: listen ? false : requireArticle });
-    if (r.result === 'empty') {
-      input.classList.remove('bad'); void input.offsetWidth; input.classList.add('bad');
-      ctx.later(() => input.classList.remove('bad'), 500);
-      input.focus();
+    if (r.result === 'empty') { shake(); return; }
+    const syn = r.result !== 'ok' && !listen ? synonymOf(input.value, e) : null;
+    if (syn) {
+      fb.replaceChildren(h('div', { class: 'note-box pop', style: { marginTop: '12px' } },
+        `«${syn.de}» теж означає «${e.ua}», але тут загадано інше слово. Спробуйте ще раз.`));
+      shake();
       return;
     }
     state = 'done';

@@ -247,4 +247,7 @@ export function applyTheme() {
   const t = settings.theme;
   if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
   else delete document.documentElement.dataset.theme;
+  // У застосунку для iPhone тема впливає і на статус-бар, клавіатуру та системні списки.
+  const native = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.theme;
+  if (native) native.postMessage(t === 'light' || t === 'dark' ? t : 'auto');
 }

@@ -29,6 +29,8 @@ export function render(root) {
     if (own) opts.push(['MY', 'Мої', own]);
     const edited = all.filter(e => e.edited).length;
     if (edited) opts.push(['EDITED', 'Змінені', edited]);
+    // Фільтр «Мої» / «Змінені» зник (усе видалено чи повернуто) — показуємо весь словник.
+    if (!opts.some(([id]) => id === state.lv)) state.lv = 'all';
     chipsEl.replaceChildren(...opts.map(([id, label, n]) => h('button', {
       class: 'chip' + (state.lv === id ? ' on' : ''), type: 'button',
       onclick: () => { state.lv = id; drawChips(); refresh(); },
@@ -82,7 +84,8 @@ export function render(root) {
     more.textContent = shown < items.length ? 'Завантаження…' : '';
   }
 
-  const io = new IntersectionObserver(es => { if (es.some(x => x.isIntersecting) && shown < items.length) renderMore(); }, { rootMargin: '600px' });
+  const io = new IntersectionObserver(es => { if (es.some(x => x.isIntersecting) && shown < items.length) renderMore(); },
+    { root: document.getElementById('view'), rootMargin: '600px' });
   io.observe(more);
 
   drawChips();

@@ -6,6 +6,14 @@ import WebKit
 /// fetch() і localStorage так само, як на звичайному сайті.
 final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
     private var webView: WKWebView!
+    private var theme = "auto"
+
+    // Колір фону як у CSS (--bg), щоб не блимало білим/чорним під час запуску.
+    private static let pageBackground = UIColor { traits in
+        traits.userInterfaceStyle == .dark
+            ? UIColor(red: 0x0e / 255, green: 0x10 / 255, blue: 0x16 / 255, alpha: 1)
+            : UIColor(red: 0xf4 / 255, green: 0xf5 / 255, blue: 0xfa / 255, alpha: 1)
+    }
 
     override func loadView() {
         let config = WKWebViewConfiguration()
@@ -14,17 +22,30 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
         config.mediaTypesRequiringUserActionForPlayback = []
         config.websiteDataStore = .default()
         config.userContentController.add(self, name: "saveFile")
+        config.userContentController.add(self, name: "theme")
 
         webView = WKWebView(frame: .zero, configuration: config)
         webView.navigationDelegate = self
         webView.uiDelegate = self
         webView.allowsBackForwardNavigationGestures = false
         webView.scrollView.contentInsetAdjustmentBehavior = .never
+        // Сторінка не прокручується цілком (прокручується лише вміст усередині),
+        // тож «пружина» всієї сторінки лише зсуває панелі.
+        webView.scrollView.bounces = false
         webView.isOpaque = false
-        webView.backgroundColor = .systemBackground
-        webView.scrollView.backgroundColor = .systemBackground
+        webView.backgroundColor = Self.pageBackground
+        webView.scrollView.backgroundColor = Self.pageBackground
         if #available(iOS 16.4, *) { webView.isInspectable = true }
         view = webView
+    }
+
+    // Тема, вибрана в налаштуваннях застосунку, а не лише системна.
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        switch theme {
+        case "light": return .darkContent
+        case "dark": return .lightContent
+        default: return .default
+        }
     }
 
     override func viewDidLoad() {
@@ -55,10 +76,24 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
         webView.reload()
     }
 
-    // Міст для збереження резервної копії / CSV: JS надсилає { name, text }.
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        guard message.name == "saveFile",
-              let body = message.body as? [String: Any],
+        if message.name == "theme" {
+            applyTheme(message.body as? String ?? "auto")
+        } else if message.name == "saveFile" {
+            saveFile(message.body)
+        }
+    }
+
+    // JS надсилає "light" | "dark" | "auto".
+    private func applyTheme(_ value: String) {
+        theme = value
+        overrideUserInterfaceStyle = value == "light" ? .light : value == "dark" ? .dark : .unspecified
+        setNeedsStatusBarAppearanceUpdate()
+    }
+
+    // Міст для збереження резервної копії / CSV: JS надсилає { name, text }.
+    private func saveFile(_ messageBody: Any) {
+        guard let body = messageBody as? [String: Any],
               let name = body["name"] as? String,
               let text = body["text"] as? String else { return }
         let fileName = (name as NSString).lastPathComponent

@@ -95,12 +95,11 @@ export function render(root, [idEnc]) {
   function save() {
     const c = current();
     if (!c.de.trim() || !c.ua.trim()) { toast('Заповніть німецьку та український переклад'); return; }
-    const dup = S.allEntries().find(x => x.de === c.de.trim() && x.id !== id);
-    if (dup && isNew) toast('Увага: таке слово вже є у словнику');
+    const dup = isNew && S.allEntries().some(x => x.de === c.de.trim());
     lastLevel = c.lv;
     lastTopic = c.t || lastTopic;
     S.saveEntry(id, c);
-    toast(isNew ? 'Додано до словника' : 'Збережено');
+    toast(!isNew ? 'Збережено' : dup ? 'Додано. Увага: таке слово вже було у словнику' : 'Додано до словника');
     location.hash = '#/dict';
   }
 
@@ -133,7 +132,7 @@ export function render(root, [idEnc]) {
         h('dt', null, 'Повторення'), h('dd', null, p.b ? new Date(p.d * 864e5 + new Date().getTimezoneOffset() * 60000).toLocaleDateString('uk-UA') : '—'))) : null,
     h('div', { class: 'btn-col' },
       h('button', { class: 'btn primary block big', type: 'button', onclick: save }, 'Зберегти'),
-      p ? h('button', { class: 'btn block', type: 'button', onclick: () => { S.resetProgress([id]); toast('Прогрес слова скинуто'); location.hash = '#/edit/' + idEnc; } }, 'Скинути прогрес слова') : null,
+      p ? h('button', { class: 'btn block', type: 'button', onclick: () => { S.resetProgress([id]); toast('Прогрес слова скинуто'); location.hash = '#/edit/' + idEnc + '?' + Date.now(); } }, 'Скинути прогрес слова') : null,
       e && e.edited ? h('button', { class: 'btn block', type: 'button', onclick: async () => {
         if (await confirmBox('Повернути початковий варіант слова з вбудованого словника?', { ok: 'Повернути' })) { S.resetEntry(id); toast('Відновлено'); location.hash = '#/dict'; }
       } }, icon('undo', 18), 'Повернути оригінал') : null,

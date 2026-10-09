@@ -1,7 +1,7 @@
 // Точка входу: маршрутизація між екранами, service worker, ініціалізація.
 import * as S from './store.js';
 import * as audio from './audio.js';
-import { h, setKeys, toast, applyTheme } from './ui.js';
+import { h, setKeys, toast, applyTheme, typingInField } from './ui.js';
 import * as home from './views/home.js';
 import * as play from './views/play.js';
 import * as dict from './views/dict.js';
@@ -25,7 +25,7 @@ function route() {
   document.querySelectorAll('#tabbar a').forEach(a => a.classList.toggle('active', a.dataset.tab === TAB_OF[name]));
   const view = document.getElementById('view');
   view.replaceChildren();
-  window.scrollTo(0, 0);
+  view.scrollTop = 0;
   try {
     cleanup = ROUTES[name].render(view, parts.slice(1), new URLSearchParams(query || '')) || null;
   } catch (e) {
@@ -69,6 +69,13 @@ async function start() {
     return;
   }
   window.addEventListener('hashchange', route);
+  // Повторний дотик до активної вкладки — прокрутити на початок.
+  document.getElementById('tabbar').addEventListener('click', ev => {
+    const a = ev.target.closest('a');
+    if (a && a.getAttribute('href') === location.hash) document.getElementById('view').scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  // iOS після закриття клавіатури інколи лишає весь екран зсунутим угору.
+  document.addEventListener('focusout', () => setTimeout(() => { if (!typingInField()) window.scrollTo(0, 0); }, 60));
   route();
   registerSW();
 }
