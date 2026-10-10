@@ -7,8 +7,9 @@ import * as write from '../modes/write.js';
 import * as match from '../modes/match.js';
 import * as listen from '../modes/listen.js';
 import * as articles from '../modes/articles.js';
+import * as gems from '../modes/gems.js';
 
-const MODES = { learn, cards, write, match, listen, articles };
+const MODES = { learn, cards, write, match, listen, articles, gems };
 
 export function render(root, [mode], params) {
   const M = MODES[mode] || learn;

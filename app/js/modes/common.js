@@ -18,6 +18,8 @@ export const MODES = [
     long: 'Слухайте слово й оберіть переклад або запишіть почуте (диктант).' },
   { id: 'articles', title: 'Артиклі', desc: 'der, die чи das?', icon: 'articles', color: '#8b5cf6',
     long: 'Тренування родів іменників. Колір допомагає запам’ятати: der — синій, die — рожевий, das — зелений.' },
+  { id: 'gems', title: 'Кристали', desc: 'Три в ряд: ходи — за відповіді', icon: 'gem', color: '#e11d48',
+    long: 'Міняйте місцями сусідні кристали й складайте ряди. З 4–5 в ряд з’являється заряджений кристал — у наступній комбінації він вибухає (5×5) і ламає навіть камені. Нові ходи дають відповіді на питання.' },
 ];
 export const modeMeta = id => MODES.find(m => m.id === id);
 
@@ -59,9 +61,10 @@ export function learningOrder(list) {
   return shuffle(list).sort((a, b) => k(a) - k(b));
 }
 
-export function setupPanel({ mode, count, countLabel, options = [], extra = null, onStart }) {
+// resume — { label, onClick }: кнопка «Продовжити» над кнопкою старту.
+export function setupPanel({ mode, count, countLabel, options = [], extra = null, onStart, startLabel = 'Почати', resume = null }) {
   const m = modeMeta(mode);
-  setKeys(ev => { if (ev.key === 'Enter' && !typingInField()) onStart(); });
+  setKeys(ev => { if (ev.key === 'Enter' && !typingInField()) (resume ? resume.onClick : onStart)(); });
   return h('div', { class: 'setup' },
     h('div', { class: 'hero' },
       h('div', { class: 'hero-ico', style: { background: m.color } }, icon(m.icon, 34)),
@@ -73,7 +76,8 @@ export function setupPanel({ mode, count, countLabel, options = [], extra = null
         h('div', { class: 'lbl' }, o.label),
         seg(o.choices, settings[o.key], v => { settings[o.key] = v; saveSettings(); }))),
       extra) : null,
-    h('button', { class: 'btn primary block big', type: 'button', onclick: onStart }, 'Почати'));
+    resume ? h('button', { class: 'btn primary block big', type: 'button', onclick: resume.onClick }, resume.label) : null,
+    h('button', { class: 'btn block big' + (resume ? '' : ' primary'), type: 'button', style: resume ? { marginTop: '10px' } : null, onclick: onStart }, startLabel));
 }
 
 export function summary(root, { title, stats = [], missed = [], buttons = [] }) {
@@ -154,7 +158,7 @@ export function mcQuestion(root, e, kind, list, ctx, done) {
 }
 
 // Інше слово словника з тим самим перекладом, яке збігається з відповіддю.
-function synonymOf(answer, e) {
+export function synonymOf(answer, e) {
   const ua = e.ua.trim().toLowerCase();
   return allEntries().find(x => x.id !== e.id && x.ua.trim().toLowerCase() === ua
     && check(answer, x, { requireArticle: false }).result === 'ok') || null;
