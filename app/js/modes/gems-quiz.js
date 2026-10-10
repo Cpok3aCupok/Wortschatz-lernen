@@ -34,15 +34,16 @@ export function pickWords(list, n, { missed = [], recent = [] } = {}, exclude = 
   return out;
 }
 
-// Ходи за відповідь: з 1-ї спроби — 3, з 2-ї — 2, з 3-ї — 1; або випадково 1–3.
-export function rewardFor(r) {
+// Ходи за правильну відповідь залежать від складності: level.reward — за 1-шу, 2-гу, 3-тю спробу
+// (легка 3/2/1, середня 2/1/1, складна 1/1/1); або випадково від 1 до level.random.
+export function rewardFor(r, level) {
   if (!r.ok) return 0;
-  if (settings.gemsReward === 'random') return 1 + Math.floor(Math.random() * 3);
-  return Math.max(1, TRIES + 1 - r.tries);
+  if (settings.gemsReward === 'random') return 1 + Math.floor(Math.random() * level.random);
+  return level.reward[Math.min(r.tries, TRIES) - 1];
 }
 
 // Одне питання: тип чергується (вибір перекладу, навпаки, на слух, артикль, письмо, пари).
-// state: { list, missed, recent, lastType }. Повертає { ok, tries, reward, words, wrong }.
+// state: { list, missed, recent, lastType, level }. Повертає { ok, tries, reward, words, wrong }.
 export async function askOne(root, head, state, ctx) {
   const [e] = pickWords(state.list, 1, state);
   const types = ['de', 'ua', 'listen', 'de', 'ua'];
@@ -61,7 +62,7 @@ export async function askOne(root, head, state, ctx) {
     : type === 'write' ? await writeQ(body, e, ctx)
     : type === 'article' ? await articleQ(body, e)
     : await choiceQ(body, e, type, state.list);
-  r.reward = rewardFor(r);
+  r.reward = rewardFor(r, state.level);
   for (const w of r.words) { state.recent.push(w.id); if (state.recent.length > 8) state.recent.shift(); }
   await feedback(body, r, ctx);
   return r;

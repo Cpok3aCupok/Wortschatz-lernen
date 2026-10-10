@@ -33,7 +33,8 @@ export const DEFAULTS = {
   voice: '',
   theme: 'auto',
   gemsQ: 'gem',          // питання в «Кристалах»: gem — кристали «?» | moves — кожні кілька ходів
-  gemsReward: 'tries',   // ходи за відповідь: tries — 3/2/1 за спробу | random — 1–3
+  gemsLevel: 'medium',   // складність «Кристалів»: easy | medium | hard
+  gemsReward: 'tries',   // ходи за відповідь: tries — залежно від спроби | random — випадково
   gemsWrite: true,       // письмо серед питань у «Кристалах»
 };
 export const settings = Object.assign({}, DEFAULTS, load(K.settings, {}));

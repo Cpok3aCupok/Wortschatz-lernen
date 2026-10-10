@@ -74,7 +74,7 @@ export function setupPanel({ mode, count, countLabel, options = [], extra = null
     options.length || extra ? h('div', { class: 'card' },
       options.map(o => h('div', { class: 'opt' },
         h('div', { class: 'lbl' }, o.label),
-        seg(o.choices, settings[o.key], v => { settings[o.key] = v; saveSettings(); }))),
+        seg(o.choices, settings[o.key], v => { settings[o.key] = v; saveSettings(); if (o.onChange) o.onChange(v); }))),
       extra) : null,
     resume ? h('button', { class: 'btn primary block big', type: 'button', onclick: resume.onClick }, resume.label) : null,
     h('button', { class: 'btn block big' + (resume ? '' : ' primary'), type: 'button', style: resume ? { marginTop: '10px' } : null, onclick: onStart }, startLabel));

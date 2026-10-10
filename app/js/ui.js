@@ -58,6 +58,7 @@ const P = {
   trophy: '<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/>',
   globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
   gem: '<path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M12 21 8 9l4-6 4 6-4 12"/>',
+  bomb: '<circle cx="10.5" cy="14.5" r="6.5"/><path d="m15.5 9.5 2-2"/><path d="M17.5 7.5c.5-2 2-3 4-2.5M20 2v1.5M22 4h-1.5"/>',
 };
 export function icon(name, size = 22) {
   return h('span', {

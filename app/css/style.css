@@ -482,6 +482,8 @@ textarea { min-height: 120px; resize: vertical; font-size: 16px; }
   animation: rise .9s ease-out forwards;
 }
 .gems-hint { margin: 10px 4px 0; }
+.gems-bomb { margin-top: 10px; }
+.gems-board.aim { box-shadow: 0 0 0 3px var(--bad), var(--shadow); cursor: crosshair; }
 .match-grid.pairs { grid-template-columns: 1fr 1fr; }
 .match-grid.pairs .tile { min-height: 58px; }
 .tile:disabled { cursor: default; }

@@ -96,9 +96,22 @@ export function analyze(b, focus = null) {
       creates.push({ k: f ?? gr.longest[Math.floor(gr.longest.length / 2)], c: gr.c });
     }
   }
-  // Заряджені кристали у збігу вибухають; вибух зачіпає інші заряджені — ланцюжок.
+  // Заряджені кристали у збігу вибухають.
+  const booms = explode(g, clear, [...clear].filter(k => at(k).ch));
+  return result(g, clear, booms, creates);
+}
+
+// Куплена вибухівка: вибух 5×5 у будь-якій клітинці (так само зачіпає заряджені — ланцюжок).
+export function blast(b, [x, y]) {
+  const clear = new Set();
+  const booms = explode(b.grid, clear, [key(x, y)]);
+  return result(b.grid, clear, booms, []);
+}
+
+// Вибухи 5×5 від клітинок starts; заряджені кристали в зоні теж вибухають — ланцюжок.
+function explode(g, clear, starts) {
   const booms = [];
-  const queue = [...clear].filter(k => at(k).ch);
+  const queue = starts.slice();
   const done = new Set();
   while (queue.length) {
     const k = queue.shift();
@@ -115,9 +128,13 @@ export function analyze(b, focus = null) {
       }
     }
   }
+  return booms;
+}
+
+function result(g, clear, booms, creates) {
   let gems = 0, stones = 0, q = 0;
   for (const k of clear) {
-    const c = at(k);
+    const [x, y] = xy(k), c = g[y][x];
     if (c.t === 's') stones++; else gems++;
     if (c.q) q++;
   }
