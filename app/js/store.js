@@ -4,7 +4,7 @@ import { fullAudio } from './wikiparse.js';
 
 const K = {
   edits: 'ws.edits', prog: 'ws.progress', settings: 'ws.settings',
-  sel: 'ws.selection', daily: 'ws.daily', best: 'ws.best',
+  sel: 'ws.selection', daily: 'ws.daily', best: 'ws.best', gems: 'ws.gems',
 };
 
 function load(key, def) {
@@ -32,6 +32,9 @@ export const DEFAULTS = {
   rate: 0.9,
   voice: '',
   theme: 'auto',
+  gemsQ: 'gem',          // питання в «Кристалах»: gem — кристали «?» | moves — кожні кілька ходів
+  gemsReward: 'tries',   // ходи за відповідь: tries — 3/2/1 за спробу | random — 1–3
+  gemsWrite: true,       // письмо серед питань у «Кристалах»
 };
 export const settings = Object.assign({}, DEFAULTS, load(K.settings, {}));
 export function saveSettings() { save(K.settings, settings); }
@@ -261,6 +264,10 @@ export function setBestTime(key, ms) {
   if (!b[key] || ms < b[key]) { b[key] = ms; save(K.best, b); return true; }
   return false;
 }
+
+// ---------- Гра «Кристали»: рекорд і незавершена гра ----------
+export const gemsData = () => load(K.gems, {});
+export function saveGemsData(d) { save(K.gems, d); }
 
 // ---------- Резервна копія ----------
 export function exportBackup() {

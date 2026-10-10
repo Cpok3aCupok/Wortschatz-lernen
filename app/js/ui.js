@@ -57,6 +57,7 @@ const P = {
   undo: '<path d="M9 14 4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-2"/>',
   trophy: '<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/>',
   globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+  gem: '<path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M12 21 8 9l4-6 4 6-4 12"/>',
 };
 export function icon(name, size = 22) {
   return h('span', {
@@ -247,4 +248,7 @@ export function applyTheme() {
   const t = settings.theme;
   if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
   else delete document.documentElement.dataset.theme;
+  // У застосунку для iPhone тема впливає і на статус-бар, клавіатуру та системні списки.
+  const native = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.theme;
+  if (native) native.postMessage(t === 'light' || t === 'dark' ? t : 'auto');
 }
